@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="projectcss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+     <!--  top nav  Bar -->
+  <div class="top-bar">
+    <!-- <div class="top-bar-content"> -->
+    <div class="left-info">
+      <span><i class="fa-solid fa-location-dot" style="color:orange"></i> 123 Street, New York</span>
+      <span><i class="fa-solid fa-envelope" style="color:orange"></i> Email@Example.com</span>
+    </div>
+    <div class="right-info">
+      <a href="#">Privacy Policy</a> /
+      <a href="#">Terms of Use</a> /
+      <a href="#">Sales and Refunds</a>
+    
+    </div>
+  </div>
+  <!--second-nav-bar-->
+  <input type="checkbox" id="menu-toggle">
+
+  <div class ="second-nav">
+    <div class="left-side">
+        <h1>Fruitables</h1>
+    </div>
+    <div class="middle">
+      <a href="#" style="color: #77b72f;">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Shop Details</a>
+      <a href="#">Pages <i class="fa-solid fa-chevron-down"></i></a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="right-icons">
+            <a href="#"><i class="fa-solid fa-magnifying-glass" style="color:#77b72f"></i></a>
+            <a href="#"><i class="fa-solid fa-cart-shopping" style="color:#77b72f"></i></a>
+            <a href="#"><i class="fa-solid fa-user" style="color:#77b72f"></i></a>
+    </div>
+     <div class="hamburger">
+      <label for="menu-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+    </div>
+  </div>
+
+
+
+
+  <!--main page-->
+<section class="hero">
+  <div class="hero-left">
+    <h2>100% Organic Foods</h2>
+    <h1>Organic Veggies &<br>Fruit Foods</h1>
+  <!-- Search Bar -->
+  <div class="search-bar">
+    <input type="text" placeholder="Search">
+    <button>Sudmit Now</button>
+  </div>
+  </div>
+
+  <div class="hero-right">
+    <!-- Checkbox to switch images -->
+    <input type="checkbox" id="toggle">
+    <div class="image-container">
+      <label for="toggle" class="arrow left">&#10094;</label>
+      <div class="image fruits">
+        <span style="background-color: orange;">Fruits</span>
+      </div>
+      <div class="image vegetables">
+        <span style="background-color: #77b72f;">Vegetables</span>
+      </div>
+      <label for="toggle" class="arrow right">&#10095;</label>
+    </div>
+  </div>
+</section>
+
+
+
+<!--2nd page-->
+  <div class="second-page">
+    <div class="page2-1">
+        <i class="fa-solid fa-truck"></i>
+        <h3>Free Shipping</h3>
+        <p>Free on order over $300</p>
+    </div>
+    <div class="page2-2">
+       <i class="fa-solid fa-lock"></i>
+       <h3>Security Payment</h3>
+       <p>100% security payment</p>
+    </div>
+    <div class="page2-3">
+      <i class="fa-solid fa-rotate-left"></i>
+      <h3>Freash and Organic</h3>
+      <p>Natural and chemical-free products</p>
+    </div>
+    <div class="page2-4">
+      <i class="fa-solid fa-phone"></i>
+      <h3>24/7 Support</h3>
+      <p>Support every time fast</p>
+    </div>
+  </div>
+
+
+  
+  <!--3rd page-->
+  <div class="thirdpage">
+    <div class="nav3">
+      <h3>Our Organic Products</h3>
+    </div>
+    <div class="radiobutton">
+      <input type="radio" id="all" name="filter" checked>
+      <label for="all">All Products</label>
+
+      <input type="radio" id="fruits" name="filter">
+      <label for="fruits">Fruits</label>
+
+      <input type="radio" id="vegetables" name="filter">
+      <label for="vegetables">Vegetables</label>
+
+      <input type="radio" id="milk" name="filter">
+      <label for="milk">Milk</label>
+
+      <input type="radio" id="bread" name="filter">
+      <label for="bread">Bread</label>
+    </div> 
+  </div> 
+   <div class="product-container">
+    <div class="product-card fruits">
+      <img src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce" alt="Grapes">
+      <div class="content">
+      <h3>Apples</h3>
+      <p>Fresh, juicy apples full of natural sweetness.</p>
+      <span>$4.99 / kg     <button class="add-to-cart">Add to Cart</button></span>
+      
+      </div>
+    </div>
+     <div class="product-card fruits">
+      <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRNeDFRBQWdeRXbcmfzR8-lZqXS9jTCEyInPuYhx0jefBf_xcv4MT2g-3cs2ArlXcbv2W5rdibuP-HCUYWCULzLBiSiOQkbZhT5sBbBi-c" alt="Grapes">
+      <div class="content">
+      <h3>Grapes</h3>
+      <p>Sweet organic grapes rich in vitamins and nutrients.</p>
+      <span>$4.99 / kg    <button class="add-to-cart">Add to Cart</button></span>
+      
+      </div>
+    </div>
+     <div class="product-card fruits">
+      <img src="https://blog-images-1.pharmeasy.in/blog/production/wp-content/uploads/2021/01/30152155/shutterstock_518328943-1.jpg" alt="Grapes">
+      <div class="content">
+      <h3>Bananas</h3>
+      <p>Ripe bananas perfect for snacks and smoothies.</p>
+      <span>$4.99 / kg    <button class="add-to-cart">Add to Cart</button></span>
+      </div>
+    </div>
+     <div class="product-card fruits">
+      <img src="https://images.contentstack.io/v3/assets/bltcedd8dbd5891265b/blt8f1b670f6ce70f03/665640cf25d39356aa103fc7/types-of-fruit-papaya.jpg?q=70&width=3840&auto=webp" alt="Grapes">
+      <div class="content">
+      <h3>Papaya</h3>
+      <p>Delicious tropical fruit rich in vitamins.</p>
+      <span>$4.99 / kg    <button class="add-to-cart">Add to Cart</button></span>
+      </div>
+    </div>
+     <div class="product-card fruits">
+      <img src="https://www.fao.org/images/newsroomlibraries/stories-images/bangladesh-ocop-1.jpg?sfvrsn=5681aa26_11" alt="Grapes">
+      <div class="content">
+      <h3>Jack fruit</h3>
+      <p>Large fruit with sweet, unique tropical flavor.</p>
+      <span>$4.99 / kg   <button class="add-to-cart">Add to Cart</button></span>
+      </div>
+    </div>
+     <div class="product-card fruits">
+      <img src="https://cdn.pixabay.com/photo/2017/05/28/14/46/avocado-2351191_640.jpg" alt="Grapes">
+      <div class="content">
+      <h3>Avocado</h3>
+      <p>Creamy green fruit loaded with healthy fats.</p>
+      <span>$4.99 / kg    <button class="add-to-cart">Add to Cart</button></span>
+      </div>
+    </div>
+     <div class="product-card fruits">
+      <img src="https://media.post.rvohealth.io/wp-content/uploads/sites/3/2023/10/healthful_fruits_GettyImages1460563019_Thumb.jpg" alt="Grapes">
+      <div class="content">
+      <h3>Orange</h3>
+      <p>Juicy citrus packed with refreshing vitamin C.</p>
+      <span>$4.99 / kg    <button class="add-to-cart">Add to Cart</button></span>
+      </div>
+    </div>
+     <div class="product-card fruits">
+      <img src="https://media.post.rvohealth.io/wp-content/uploads/2020/08/blue-fruits-1296x728-facebook-1200x628.jpg" alt="Grapes">
+      <div class="content">
+      <h3>Blue Berry</h3>
+      <p>Sweet and tangy berries full of antioxidants.</p>
+      <span>$4.99 / kg     <button class="add-to-cart">Add to Cart</button></span>
+    </div>
+   </div>
+   </div>
+   
+   <!--4th page-->
+   <section class="offer-section">
+    <div class="offer-card orange">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Fresh Apples">
+      <div class="offer-label green">
+        <h4>Fresh Apples</h4>
+        <p>20% OFF</p>
+      </div>
+    </div>
+
+    <div class="offer-card gray">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/PerfectStrawberry.jpg" alt="Tasty Fruits">
+      <div class="offer-label white">
+        <h4>Tasty Fruits</h4>
+        <p>Free delivery</p>
+      </div>
+    </div>
+
+    <div class="offer-card green">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Broccoli_and_cross_section_edit.jpg" alt="Exotic Vegetable">
+      <div class="offer-label orange">
+        <h4>Exotic Vegetable</h4>
+        <p>Discount 30$</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <!--5th page-->
+  <div class="fifth-page">
+    <div class="nav4">
+      <h2>Fresh Oraganic Vegetables</h2>
+    </div>
+    <div class="product-container">
+    <div class="product-card fruits">
+      <img src="https://media.post.rvohealth.io/wp-content/uploads/2020/09/AN313-Tomatoes-732x549-Thumb.jpg" alt="Grapes">
+      <div class="content">
+      <h3>Tomatos</h3>
+      <p>Juicy red tomatoes bursting with natural flavor.</p>
+      <span>$4.99 / kg     <button class="add-to-cart">Add to Cart</button></span>
+      
+      </div>
+    </div>
+     <div class="product-card fruits">
+      <img src="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP.jpg" alt="Grapes">
+      <div class="content">
+      <h3>Potatos</h3>
+      <p>SGolden potatoes ideal for crispy, tasty fries.</p>
+      <span>$4.99 / kg    <button class="add-to-cart">Add to Cart</button></span>
+      
+      </div>
+    </div>
+     <div class="product-card fruits">
+      <img src="https://connect.healthkart.com/wp-content/uploads/2022/11/900x500_banner_HK-Connect_Health-Benefits-of-green-chillies.png" alt="Grapes">
+      <div class="content">
+      <h3>chillies</h3>
+      <p>Spicy green chillies adding heat to dishes.</p>
+      <span>$4.99 / kg    <button class="add-to-cart">Add to Cart</button></span>
+      </div>
+    </div>
+    <div class="product-card fruits">
+      <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/6544/images/hxdy8wnBSiyrzXHHPQ2K_Cauliflower-1280x720-2018.png" alt="Grapes">
+      <div class="content">
+      <h3>Cauli flower</h3>
+      <p>Fresh and crunchy, perfect for healthy meals.</p>
+      <span>$4.99 / kg    <button class="add-to-cart">Add to Cart</button></span>
+      </div>
+    </div>
+    </div>
+  </div>
+   
+  <!--6th-page-->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1><span>Fresh Exotic Fruits</span><br><h2>in Our Store</h2></h1>
+      <p>The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.</p>
+      <button class="buy-btn">BUY</button>
+    </div>
+
+    <div class="hero-image">
+      <div class="price-tag">
+        <span class="big">1</span><span class="small">50$<br><span>kg</span></span>
+      </div>
+      <img src="https://themewagon.github.io/fruitables/img/baner-1.png" alt="Apple Basket">
+    </div>
+  </section>
+
+
+
+  <!--7th-page-->
+  <section class="bestseller">
+  <h2 class="title">Bestseller Products</h2>
+  <p class="subtitle">
+    Latin words, combined with a handful of model sentence structures, 
+    to generate Lorem Ipsum which looks reasonable.
+  </p>
+
+  <div class="product-grid">
+    <!-- Card 1 -->
+    <div class="card">
+      <div class="left-img">
+         <img src="https://media.post.rvohealth.io/wp-content/uploads/sites/3/2023/10/healthful_fruits_GettyImages1460563019_Thumb.jpg" alt="Oranges">
+      </div>
+      <div class="right-cntnt">
+        <h3>Oranges</h3>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <p class="price">3.12 $</p>
+        <button><i class="fa-solid fa-lock"></i> Add to cart</button>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <div class="left-img">
+          <img src="https://cdn.britannica.com/83/156583-050-4A1FABB5/Red-raspberries.jpg" alt="Raspberry">
+      </div>
+      <div class="right-cntnt">
+      <h3>Raspberry</h3>
+      <div class="stars">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <p class="price">3.12 $</p>
+      <button><i class="fa-solid fa-lock"></i> Add to cart</button>
+    </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <div class="left-img">
+          <img src="https://nutritionsource.hsph.harvard.edu/wp-content/uploads/2018/08/bananas-1354785_1920.jpg" alt="Banana">
+      </div>
+      <div class="right-cntnt">
+      <h3>Banana</h3>
+      <div class="stars">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <p class="price">3.12 $</p>
+      <button><i class="fa-solid fa-lock"></i> Add to cart</button>
+    </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card">
+      <div class="left-img">
+          <img src="https://indiacuisine.net/cdn/shop/products/DRIEDAPRICOT_fd81c89a-f4ef-489c-92da-65454ec04f3e.jpg?v=1627033375" alt="Apricot">
+      </div>
+      <div class="right-cntnt">
+      <h3>Apricot</h3>
+      <div class="stars">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <p class="price">3.12 $</p>
+      <button><i class="fa-solid fa-lock"></i> Add to cart</button>
+    </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="card">
+      <div class="left-img">
+         <img src="https://grapaes.com/wp-content/uploads/2024/09/035Kar_FD_00713-scaled.jpg" alt="Grapes">
+      </div>
+      <div class="right-cntnt">
+      <h3>Grapes</h3>
+      <div class="stars">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <p class="price">3.12 $</p>
+      <button><i class="fa-solid fa-lock"></i> Add to cart</button>
+    </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="card">
+      <div class="left-img">
+      <img src="https://images.prismic.io/oddbox/c3e87e0d-d6aa-4b27-ab93-4b9b67cb57cc_pierpaolo-riondato-s7r4xjKXo0s-unsplash.jpg?auto=compress%2Cformat&fit=max" alt="Apple">
+      </div>
+      <div class="right-cntnt">
+      <h3>Apples</h3>
+      <div class="stars">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <p class="price">3.12 $</p>
+      <button><i class="fa-solid fa-lock"></i> Add to cart</button>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!--8th-page-->
+<div class="eight-page">
+  <div class="card-8-1">
+      <div class="card-image">
+        <img src="https://www.marthastewart.com/thmb/B7eZsubtXED4XEsWvpb8W1PvogA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/dragon-fruit-503603245-0220-2000-f5521a37b64d4f7f8e6dc8cb053f0c31.jpg" alt="Product">
+      </div>
+      <div class="card-info">
+        <p class="name">Dragon Fruit</p>
+        <div class="stars">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+        <p class="price">$5</p>
+        <button><i class="fa-solid fa-lock"></i> Add to cart</button>
+      </div>
+  </div>
+  <div class="card-8-2">
+      <div class="card-image">
+        <img src="https://udupifresh.com/cdn/shop/files/52_750x.jpg?v=1723218778" alt="Product">
+      </div>
+      <div class="card-info">
+        <p class="name">Star Fruit</p>
+        <div class="stars">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+        <p class="price">$5</p>
+        <button><i class="fa-solid fa-lock"></i> Add to cart</button>
+      </div>
+
+  </div>
+  <div class="card-8-3">
+      <div class="card-image">
+        <img src="https://cdn2.stylecraze.com/wp-content/uploads/2013/07/Benefits-Of-Pears.jpg.webp" alt="Product">
+      </div>
+      <div class="card-info">
+        <p class="name">Pears </p>
+        <div class="stars">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+        <p class="price">$5</p>
+        <button><i class="fa-solid fa-lock"></i> Add to cart</button>
+      </div>
+
+  </div>
+  <div class="card-8-4">
+      <div class="card-image">
+        <img src="https://cdn.wikifarmer.com/images/thumbnail/2024/12/11%20Interesting%20Facts%20about%20Kiwifruit-1200x630.png" alt="Product">
+      </div>
+      <div class="card-info">
+        <p class="name">Kiwi</p>
+        <div class="stars">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+        <p class="price">$5</p>
+        <button><i class="fa-solid fa-lock"></i> Add to cart</button>
+      </div>
+
+  </div>
+</div>
+
+<!--9th-page-->
+<div class="ninth-page">
+  <div class="div-9-1">
+    <i class="fa-solid fa-user" style="color:orange"></i>
+    <h3>Satisfied Customers</h3>
+    <p>1963</p>
+  </div>
+  <div class="div-9-2"> <i class="fa-solid fa-user" style="color:orange"></i>
+    <h3>Quality of Service</h3>
+    <p>99%</p>
+  </div>
+  <div class="div-9-3"> <i class="fa-solid fa-user" style="color:orange"></i>
+    <h3>Quality of certificates</h3>
+    <p>33</p>
+  </div>
+  <div class="div-9-4"> <i class="fa-solid fa-user" style="color:orange"></i>
+    <h3>Available products</h3>
+    <p>789</p>
+  </div>
+</div>
+
+
+
+<!--10th-page-->
+<section class="testimonial-section">
+  <p class="test-small-title">Our Testimonial</p>
+  <h2 class="test-title">Our Client Saying!</h2>
+
+  <!-- <div class="test-arrows">
+    <button class="arrow-btn">→</button>
+    <button class="arrow-btn">←</button>
+  </div> -->
+
+  <div class="testimonial-container">
+    <!-- CARD 1 -->
+    <div class="testimonial-card">
+      <p class="test-text">
+        Lorem Ipsum is simply dummy text of the printing Ipsum has been the industry's standard dummy text ever since the 1500s,
+      </p>
+      <div class="test-line"></div>
+
+      <div class="test-client">
+        <img src="https://themewagon.github.io/fruitables/img/testimonial-1.jpg" alt="client">
+        <div>
+          <h3 class="client-name">Client Name</h3>
+          <p class="client-prof">Profession</p>
+          <p class="stars">★★★★★</p>
+        </div>
+      </div>
+
+      <span class="quote">❞</span>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="testimonial-card">
+      <p class="test-text">
+        Lorem Ipsum is simply dummy text of the printing Ipsum has been the industry's standard dummy text ever since the 1500s,
+      </p>
+      <div class="test-line"></div>
+
+      <div class="test-client">
+        <img src="https://themewagon.github.io/fruitables/img/testimonial-1.jpg" alt="client">
+        <div>
+          <h3 class="client-name">Client Name</h3>
+          <p class="client-prof">Profession</p>
+          <p class="stars">★★★★★</p>
+        </div>
+      </div>
+
+      <span class="quote">❞</span>
+    </div>
+  </div>
+</section>
+
+<!--footer-->
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-header">
+      <div>
+        <h2 class="footer-logo">Fruitables</h2>
+        <p class="footer-tagline">Fresh products</p>
+      </div>
+
+      <div class="footer-subscribe">
+        <input type="text" placeholder="Your Email">
+        <button>Subscribe Now</button>
+      </div>
+
+      <div class="footer-social">
+        <span><i class="fab fa-twitter"></i></span>
+        <span><i class="fab fa-facebook-f"></i></span>
+        <span><i class="fab fa-youtube"></i></span>
+        <span><i class="fab fa-linkedin-in"></i></span>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="footer-main">
+      <div class="footer-col">
+        <h3>Why People Like us!</h3>
+        <p>Typesetting, remaining essentially unchanged. It was popularised in the 1960s with the like Aldus PageMaker including of Lorem Ipsum.</p>
+        <button class="read-btn">Read More</button>
+      </div>
+
+      <div class="footer-col">
+        <h3>Shop Info</h3>
+        <p>About Us</p>
+        <p>Contact Us</p>
+        <p>Privacy Policy</p>
+        <p>Terms & Condition</p>
+        <p>Return Policy</p>
+        <p>FAQs & Help</p>
+      </div>
+
+      <div class="footer-col">
+        <h3>Account</h3>
+        <p>My Account</p>
+        <p>Shop details</p>
+        <p>Shopping Cart</p>
+        <p>Wishlist</p>
+        <p>Order History</p>
+        <p>International Orders</p>
+      </div>
+
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <p>Address: 1429 Netus Rd, NY 48247</p>
+        <p>Email: Example@gmail.com</p>
+        <p>Phone: +0123 4567 8910</p>
+        <p>Payment Accepted</p>
+        <img src="https://themewagon.github.io/fruitables/img/payment.png" style="width:160px;">
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© Your Site Name, All right reserved.</p>
+      <p>Designed By <span>HTML Codex</span> Distributed By <span>ThemeWagon</span></p>
+    </div>
+
+  </div>
+</footer>
+<!-- ================= Footer End ================= -->
+
+
+</body>
+</html>
