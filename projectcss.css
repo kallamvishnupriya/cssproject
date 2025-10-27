@@ -12,6 +12,7 @@
       font-family: "Poppins", sans-serif;
       width: 100%;
       overflow-x: hidden;
+      font-size: 100%;   
     }
     /* 🌿 Top Bar */
     .top-bar {
