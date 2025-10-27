@@ -4,16 +4,12 @@
       box-sizing: border-box;
       font-family: "Raleway", sans-serif;
     }
-
-    body,html {
-      margin: 0;
-      margin-left: auto;
-      margin-right: auto;
-      font-family: "Poppins", sans-serif;
-      width: 100%;
-      overflow-x: hidden;
-      font-size: 100%;   
-    }
+body, html {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  font-size: 100%;
+}
     /* 🌿 Top Bar */
     .top-bar {
       background-color: #77b72f;
